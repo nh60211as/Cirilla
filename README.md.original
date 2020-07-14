@@ -1,21 +1,3 @@
-# Cirilla Fork to edit Max Decoration Level
-Source code to generate patched GMD files of
-"Max Decoration Level Indicator (Updated)" for Monster Hunter: World: https://www.nexusmods.com/monsterhunterworld/mods/1088
-
-## How to use the program
-1. Use WorldChunkTool to extract item_<language>.gmd
-1. copy item_<language>.gmd to one of the patch variant folder
-2. open command propmt and go to the location of maxDecoBatchEdit.exe
-3. type the following command and press enter
-```
-maxDecoBatchEdit.exe "your_path_to_the_variant_folder"
-```
-4. the original item_<language>.gmd will be backed up to item_<language>.gmd.bak
-5. item_<language>.gmd is the patched file
-6. copy item_<language>.gmd to the corresponding folder in "".../Monster Hunter World/nativePC/common/text/steam"
-
-# The following are the original README
-
 # Cirilla
 
 wip stuff for Monster Hunter: World
