@@ -1,5 +1,5 @@
-# Cirilla Fork to edit Max Decoration Level
-Source code to generate patched GMD files of
+# Cirilla Fork to edit Max Decoration Level Indicator
+Source code to generate patched GMD files of \
 "Max Decoration Level Indicator (Updated)" for Monster Hunter: World: https://www.nexusmods.com/monsterhunterworld/mods/1088
 
 ## How to use the program
