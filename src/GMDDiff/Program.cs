@@ -55,6 +55,8 @@ namespace GMDDiff
                     csvWriter.NextRecord();
                 }
             }
+            tw.Close();
+            fs.Close();
             Console.WriteLine("Now leave.");
         }
     }
