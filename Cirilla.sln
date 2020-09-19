@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GMDTool", "src\GMDTool\GMDT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceEditPalette", "src\FaceEditPalette\FaceEditPalette.csproj", "{0BC469D8-2521-40EE-82F8-3510FBEAFF67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxDecoBatchEdit", "maxDecoBatchEdit\maxDecoBatchEdit.csproj", "{5CA49143-1725-480D-875D-0DC09044413D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxDecoBatchEdit", "src\maxDecoBatchEdit\maxDecoBatchEdit.csproj", "{5CA49143-1725-480D-875D-0DC09044413D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
