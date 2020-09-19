@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GMDTool", "src\GMDTool\GMDT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceEditPalette", "src\FaceEditPalette\FaceEditPalette.csproj", "{0BC469D8-2521-40EE-82F8-3510FBEAFF67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maxDecoBatchEdit", "src\maxDecoBatchEdit\maxDecoBatchEdit.csproj", "{5CA49143-1725-480D-875D-0DC09044413D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "maxDecoBatchEdit", "src\maxDecoBatchEdit\maxDecoBatchEdit.csproj", "{5CA49143-1725-480D-875D-0DC09044413D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GMDDiff", "src\GMDDiff\GMDDiff.csproj", "{0A67E539-6D5A-4C37-B205-4908B3D44B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{5CA49143-1725-480D-875D-0DC09044413D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CA49143-1725-480D-875D-0DC09044413D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CA49143-1725-480D-875D-0DC09044413D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A67E539-6D5A-4C37-B205-4908B3D44B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A67E539-6D5A-4C37-B205-4908B3D44B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A67E539-6D5A-4C37-B205-4908B3D44B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A67E539-6D5A-4C37-B205-4908B3D44B3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{2CFDDD6E-E73F-4EAB-B15D-B45A56CE2C39} = {DDC1458A-C3E0-41E1-A78C-0ABB9A4ABF41}
 		{0BC469D8-2521-40EE-82F8-3510FBEAFF67} = {DDC1458A-C3E0-41E1-A78C-0ABB9A4ABF41}
 		{5CA49143-1725-480D-875D-0DC09044413D} = {DDC1458A-C3E0-41E1-A78C-0ABB9A4ABF41}
+		{0A67E539-6D5A-4C37-B205-4908B3D44B3D} = {DDC1458A-C3E0-41E1-A78C-0ABB9A4ABF41}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7164D4A3-C8CC-4F9A-982C-205DF18AC35F}
