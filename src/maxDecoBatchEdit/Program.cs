@@ -13,6 +13,7 @@ namespace maxDecoBatchEdit
         static readonly string[] languageSuffix = {"ara","chS","chT","eng","fre",
                                             "ger","ita","jpn","kor","pol",
                                             "ptB","rus","spa"};
+        static readonly string patchSuffix = "_patch_1008_MDLI"; // format: _patch_<Nexus Mod ID>_<Mod Name>
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to my first C# program!");
@@ -26,12 +27,12 @@ namespace maxDecoBatchEdit
             {
                 foreach (string suffix in languageSuffix)
                 {
-                    string inGmdFileName = itemFileName + "/" + "item_" + suffix + ".gmd";
+                    string inGmdFileName = itemFileName + "\\" + "item_" + suffix + ".gmd";
                     string inGmdFileNameBak = inGmdFileName + ".bak";
-                    string csvFileName = itemFileName + "/" + "item_" + suffix + "_remain.csv";
+                    string csvFileName = itemFileName + "\\" + "item_" + suffix + patchSuffix + ".csv";
                     if (!File.Exists(inGmdFileName) || !File.Exists(csvFileName))
                     {
-                        Console.WriteLine("Skipping language " + suffix + " because its item.gmd or item_remain.csv does not exist.");
+                        Console.WriteLine("Skipping language " + suffix + " because its item.gmd or item" + patchSuffix + ".csv does not exist.");
                         continue;
                     }
 
